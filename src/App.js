@@ -21,17 +21,17 @@ function App() {
               role="Teacher"
               img="/images/IMG-20230623-WA0009.jpg"
             />
-            <Employee name="Mercy" role={role} img="/mercy.jpg" />
-            <Employee name="Jane" img="/jane.jpg" />
-            <Employee name="Grace" img="/forgrace.jpg" />
+            <Employee name="Mercy" role={role} img="/images/mercy.jpg" />
+            <Employee name="Jane" img="/images/jane.jpg" />
+            <Employee name="Grace" img="/images/forgrace.jpg" />
             <Employee
               name="Philip"
               role="Teacher"
               img="/images/IMG-20230623-WA0009.jpg"
             />
-            <Employee name="Mercy" role={role} img="/mercy.jpg" />
-            <Employee name="Jane" img="/jane.jpg" />
-            <Employee name="Grace" img="/forgrace.jpg" />
+            <Employee name="Mercy" role={role} img="/images/mercy.jpg" />
+            <Employee name="Jane" img="/images/jane.jpg" />
+            <Employee name="Grace" img="/images/forgrace.jpg" />
           </div>
         </>
       ) : (

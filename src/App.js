@@ -3,6 +3,8 @@ import Employee from "./components/Employee";
 import AddEmployee from "./components/AddEmployee";
 import { useState } from "react";
 import uuid from "react-uuid";
+import Header from "./components/Header";
+import Banner from "./components/Banner";
 
 function App() {
   const [employees, setEmployees] = useState([
@@ -77,10 +79,12 @@ function App() {
   }
   const showEmployee = true;
   return (
-    <div className="m-2">
+    <div className=" App min-h-screen m-2 bg-gray-300">
+      <Header />
+      <Banner />
       {showEmployee ? (
         <>
-          <div className="flex flex-wrap justify-center">
+          <div className=" flex flex-wrap justify-center">
             {employees.map((employee) => {
               return (
                 <Employee
